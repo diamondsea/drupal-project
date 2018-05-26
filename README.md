@@ -77,9 +77,10 @@ Follow the steps below to update your core files.
 
 ## Generate composer.json from existing project
 
-With using [the "Composer Generate" drush extension](https://www.drupal.org/project/composer_generate)
-you can now generate a basic `composer.json` file from an existing project. Note
-that the generated `composer.json` might differ from this project's file.
+By using [the "composerize" Drupal Console command](https://docs.drupalconsole.com/en/commands/composerize.html)
+or the ["composerize-drupal" composer plugin](https://github.com/grasmash/composerize-drupal) you can now 
+generate a basic `composer.json` file from an existing project. Note that the generated `composer.json` will probably
+differ from this project's file.
 
 
 ## FAQ
